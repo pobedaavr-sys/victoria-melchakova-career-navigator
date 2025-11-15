@@ -8,49 +8,49 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 240 10% 15%;
+    --background: 30 25% 96%;
+    --foreground: 330 20% 20%;
 
     --card: 0 0% 100%;
-    --card-foreground: 240 10% 15%;
+    --card-foreground: 330 20% 20%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 240 10% 15%;
+    --popover-foreground: 330 20% 20%;
 
-    --primary: 262 60% 45%;
+    --primary: 330 35% 25%;
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 240 5% 96%;
-    --secondary-foreground: 240 10% 15%;
+    --secondary: 30 20% 92%;
+    --secondary-foreground: 330 20% 20%;
 
-    --muted: 240 5% 96%;
-    --muted-foreground: 240 4% 46%;
+    --muted: 30 20% 92%;
+    --muted-foreground: 330 10% 45%;
 
-    --accent: 320 80% 55%;
+    --accent: 250 45% 55%;
     --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 240 6% 90%;
-    --input: 240 6% 90%;
-    --ring: 262 60% 45%;
+    --border: 30 15% 88%;
+    --input: 30 15% 88%;
+    --ring: 330 35% 25%;
 
     --radius: 1rem;
 
-    /* Custom colors for career landing */
-    --deep-purple: 262 60% 45%;
-    --bright-pink: 320 80% 55%;
-    --dark-bg: 240 50% 8%;
-    --dark-card: 240 40% 12%;
-    --light-lavender: 260 40% 95%;
-    --gradient-start: 262 60% 45%;
-    --gradient-end: 320 80% 55%;
+    /* Custom colors for career landing - Wine & Purple palette */
+    --deep-purple: 250 45% 55%;
+    --bright-pink: 330 55% 45%;
+    --dark-bg: 240 30% 12%;
+    --dark-card: 240 25% 18%;
+    --light-lavender: 250 35% 96%;
+    --gradient-start: 330 35% 25%;
+    --gradient-end: 250 45% 55%;
     
     /* Shadows */
-    --shadow-soft: 0 4px 20px -2px hsl(240 40% 15% / 0.08);
-    --shadow-medium: 0 8px 30px -4px hsl(240 40% 15% / 0.12);
-    --shadow-strong: 0 20px 60px -10px hsl(262 60% 45% / 0.25);
+    --shadow-soft: 0 4px 20px -2px hsl(330 20% 15% / 0.08);
+    --shadow-medium: 0 8px 30px -4px hsl(330 20% 15% / 0.12);
+    --shadow-strong: 0 20px 60px -10px hsl(330 35% 25% / 0.25);
     
     /* Transitions */
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
