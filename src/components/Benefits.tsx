@@ -40,34 +40,6 @@ export const Benefits = () => {
             </div>
           ))}
         </div>
-
-        {/* Decorative circles - adaptive sizing */}
-        <div 
-          className="absolute top-16 -right-8 rounded-full overflow-hidden shadow-strong border-8 border-white hidden lg:block"
-          style={{
-            width: 'clamp(180px, 14vw, 280px)',
-            height: 'clamp(180px, 14vw, 280px)',
-          }}
-        >
-          <img
-            src="https://raw.githubusercontent.com/pobedaavr-sys/is-odniki_sait_viki/main/dev_rezum_krug.png"
-            alt="Decorative"
-            className="w-full h-full object-cover"
-          />
-        </div>
-        <div 
-          className="absolute -bottom-8 right-1/4 rounded-full overflow-hidden shadow-medium border-4 border-white hidden xl:block"
-          style={{
-            width: 'clamp(110px, 8vw, 170px)',
-            height: 'clamp(110px, 8vw, 170px)',
-          }}
-        >
-          <img
-            src="https://raw.githubusercontent.com/pobedaavr-sys/is-odniki_sait_viki/main/pech_noutbook.png"
-            alt="Decorative"
-            className="w-full h-full object-cover"
-          />
-        </div>
       </div>
     </section>
   );

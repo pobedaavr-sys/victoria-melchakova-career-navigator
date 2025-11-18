@@ -56,34 +56,6 @@ export const Process = () => {
             </div>
           ))}
         </div>
-
-        {/* Decorative circles - adaptive sizing */}
-        <div 
-          className="absolute top-12 -left-8 rounded-full overflow-hidden shadow-strong border-8 border-white hidden lg:block"
-          style={{
-            width: 'clamp(200px, 15vw, 300px)',
-            height: 'clamp(200px, 15vw, 300px)',
-          }}
-        >
-          <img
-            src="https://raw.githubusercontent.com/pobedaavr-sys/is-odniki_sait_viki/main/devuchka_pichet.png"
-            alt="Decorative"
-            className="w-full h-full object-cover"
-          />
-        </div>
-        <div 
-          className="absolute -bottom-10 left-1/4 rounded-full overflow-hidden shadow-medium border-4 border-white hidden xl:block"
-          style={{
-            width: 'clamp(120px, 9vw, 180px)',
-            height: 'clamp(120px, 9vw, 180px)',
-          }}
-        >
-          <img
-            src="https://raw.githubusercontent.com/pobedaavr-sys/is-odniki_sait_viki/main/chahka_nout.png"
-            alt="Decorative"
-            className="w-full h-full object-cover"
-          />
-        </div>
       </div>
     </section>
   );
